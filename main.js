@@ -1,3 +1,5 @@
+var started = false;
+
 function c() {
   var c = new Audio("sound/c.mp3");
   c.play();
@@ -152,171 +154,194 @@ function e_h() {
 }
 
 function twinkle() {
-  setTimeout(function () {
-    c();
-  });
-  setTimeout(function () {
-    c();
-  }, 350);
-  setTimeout(function () {
-    g();
-  }, 700);
-  setTimeout(function () {
-    g();
-  }, 1050);
-  setTimeout(function () {
-    a();
-  }, 1400);
-  setTimeout(function () {
-    a();
-  }, 1750);
-  setTimeout(function () {
-    g();
-  }, 2100);
-  setTimeout(function () {
-    f();
-  }, 2800);
-  setTimeout(function () {
-    f();
-  }, 3150);
-  setTimeout(function () {
-    e();
-  }, 3400);
-  setTimeout(function () {
-    e();
-  }, 3750);
-  setTimeout(function () {
-    d();
-  }, 4100);
-  setTimeout(function () {
-    d();
-  }, 4450);
-  setTimeout(function () {
-    c();
-  }, 4800);
-  setTimeout(function () {
-    g();
-  }, 5500);
-  setTimeout(function () {
-    g();
-  }, 5850);
-  setTimeout(function () {
-    f();
-  }, 6200);
-  setTimeout(function () {
-    f();
-  }, 6500);
-  setTimeout(function () {
-    e();
-  }, 6900);
-  setTimeout(function () {
-    e();
-  }, 7250);
-  setTimeout(function () {
-    d();
-  }, 7600);
-  setTimeout(function () {
-    g();
-  }, 8300);
-  setTimeout(function () {
-    g();
-  }, 8650);
-  setTimeout(function () {
-    f();
-  }, 8900);
-  setTimeout(function () {
-    f();
-  }, 9350);
-  setTimeout(function () {
-    e();
-  }, 9700);
-  setTimeout(function () {
-    d();
-  }, 10050);
-  setTimeout(function () {
-    c();
-  }, 10400);
+  if (!started) {
+    started = true;
+
+    $('.stop').addClass('visible');
+
+    setTimeout(function () {
+      c();
+    });
+    setTimeout(function () {
+      c();
+    }, 350);
+    setTimeout(function () {
+      g();
+    }, 700);
+    setTimeout(function () {
+      g();
+    }, 1050);
+    setTimeout(function () {
+      a();
+    }, 1400);
+    setTimeout(function () {
+      a();
+    }, 1750);
+    setTimeout(function () {
+      g();
+    }, 2100);
+    setTimeout(function () {
+      f();
+    }, 2800);
+    setTimeout(function () {
+      f();
+    }, 3150);
+    setTimeout(function () {
+      e();
+    }, 3400);
+    setTimeout(function () {
+      e();
+    }, 3750);
+    setTimeout(function () {
+      d();
+    }, 4100);
+    setTimeout(function () {
+      d();
+    }, 4450);
+    setTimeout(function () {
+      c();
+    }, 4800);
+    setTimeout(function () {
+      g();
+    }, 5500);
+    setTimeout(function () {
+      g();
+    }, 5850);
+    setTimeout(function () {
+      f();
+    }, 6200);
+    setTimeout(function () {
+      f();
+    }, 6500);
+    setTimeout(function () {
+      e();
+    }, 6900);
+    setTimeout(function () {
+      e();
+    }, 7250);
+    setTimeout(function () {
+      d();
+    }, 7600);
+    setTimeout(function () {
+      g();
+    }, 8300);
+    setTimeout(function () {
+      g();
+    }, 8650);
+    setTimeout(function () {
+      f();
+    }, 8900);
+    setTimeout(function () {
+      f();
+    }, 9350);
+    setTimeout(function () {
+      e();
+    }, 9700);
+    setTimeout(function () {
+      d();
+    }, 10050);
+    setTimeout(function () {
+      c();
+
+      started = false;
+
+      $('.stop').removeClass('visible');
+    }, 10400);
+  }
 }
 
 function hbd() {
-  setTimeout(function () {
-    c();
-  });
-  setTimeout(function () {
-    c();
-  }, 300);
-  setTimeout(function () {
-    d();
-  }, 500);
-  setTimeout(function () {
-    c();
-  }, 900);
-  setTimeout(function () {
-    f();
-  }, 1300);
-  setTimeout(function () {
-    e();
-  }, 1800);
-  setTimeout(function () {
-    c();
-  }, 2400);
-  setTimeout(function () {
-    c();
-  }, 2700);
-  setTimeout(function () {
-    d();
-  }, 2900);
-  setTimeout(function () {
-    c();
-  }, 3300);
-  setTimeout(function () {
-    g();
-  }, 3700);
-  setTimeout(function () {
-    f();
-  }, 4200);
-  setTimeout(function () {
-    c();
-  }, 4700);
-  setTimeout(function () {
-    c();
-  }, 5000);
-  setTimeout(function () {
-    c_h();
-  }, 5300);
-  setTimeout(function () {
-    a();
-  }, 5650);
-  setTimeout(function () {
-    f();
-  }, 6100);
-  setTimeout(function () {
-    e();
-  }, 6550);
-  setTimeout(function () {
-    d();
-  }, 6900);
-  setTimeout(function () {
-    a_s();
-  }, 7300);
-  setTimeout(function () {
-    a_s();
-  }, 7600);
-  setTimeout(function () {
-    a();
-  }, 7900);
-  setTimeout(function () {
-    f();
-  }, 8300);
-  setTimeout(function () {
-    g();
-  }, 8700);
-  setTimeout(function () {
-    f();
-  }, 9100);
+  if (!started) {
+    started = true;
+
+    $('.stop').addClass('visible');
+
+    setTimeout(function () {
+      c();
+    });
+    setTimeout(function () {
+      c();
+    }, 300);
+    setTimeout(function () {
+      d();
+    }, 500);
+    setTimeout(function () {
+      c();
+    }, 900);
+    setTimeout(function () {
+      f();
+    }, 1300);
+    setTimeout(function () {
+      e();
+    }, 1800);
+    setTimeout(function () {
+      c();
+    }, 2400);
+    setTimeout(function () {
+      c();
+    }, 2700);
+    setTimeout(function () {
+      d();
+    }, 2900);
+    setTimeout(function () {
+      c();
+    }, 3300);
+    setTimeout(function () {
+      g();
+    }, 3700);
+    setTimeout(function () {
+      f();
+    }, 4200);
+    setTimeout(function () {
+      c();
+    }, 4700);
+    setTimeout(function () {
+      c();
+    }, 5000);
+    setTimeout(function () {
+      c_h();
+    }, 5300);
+    setTimeout(function () {
+      a();
+    }, 5650);
+    setTimeout(function () {
+      f();
+    }, 6100);
+    setTimeout(function () {
+      e();
+    }, 6550);
+    setTimeout(function () {
+      d();
+    }, 6900);
+    setTimeout(function () {
+      a_s();
+    }, 7300);
+    setTimeout(function () {
+      a_s();
+    }, 7600);
+    setTimeout(function () {
+      a();
+    }, 7900);
+    setTimeout(function () {
+      f();
+    }, 8300);
+    setTimeout(function () {
+      g();
+    }, 8700);
+    setTimeout(function () {
+      f();
+
+      started = false;
+      $('.stop').removeClass('visible');
+    }, 9100);
+  }
 }
 
 function kd() {
+  if (!started) {
+    started = true;
+
+    $('.stop').addClass('visible');
 
     setTimeout(function () {
       c();
@@ -392,10 +417,18 @@ function kd() {
     }, 8400);
     setTimeout(function () {
       a_s();
+
+      started = false;
+      $('.stop').removeClass('visible');
     }, 8700);
-  
+  }
 }
 
-if ( window.screen.availWidth < 600 ) {
-    alert("please rotate your phone to get the best experience")
+
+function reload() {
+    location.reload();
+}
+
+if (window.screen.innerWidth < 600) {
+  alert("please rotate your phone to get the best experience");
 }

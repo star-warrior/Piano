@@ -1,34 +1,30 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
 body {
-    background-color: #2b2b2b;
+    background-color: #0a0a0a;
     margin: 0;
     padding: 0;
     text-align: center;
     color:  #e8e8e8;
+    font-family: 'Gugi', cursive;
 }
 
 h1 {
-    font-family: "Dancing Script", serif;
     font-size: 4.5rem;
-    color: #e8e8e8;
     letter-spacing: 5px;
     text-align: center;
     margin: 3rem 0 1.5rem;
 }
 
 p {
-    color: #e8e8e8;
     text-align: center;
     font-size: 1.8rem;
-    font-family: "Dancing Script", serif;
     letter-spacing: 3px;
 }
 
 button {
     margin: 0 0.7rem 0;
-    font-family: "Montserrat", sans-serif;
 }
 
 footer {
@@ -39,7 +35,6 @@ footer {
 }
 
 footer p {
-    font-family: "Montserrat", sans-serif;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
 }
@@ -133,6 +128,18 @@ footer p {
 
 #seventh-black {
     left: 87%;
+}
+
+.stop {
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.visible {
+    transition: .5s;
+    visibility: visible;
+    opacity: 1;
 }
 
 @media (max-width: 672px) {
